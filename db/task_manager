@@ -6,4 +6,12 @@ tasks:
 - id: 2
   title: more programming
   description: get it
-total: 2
+- id: 3
+  title: be as happy as this dog
+  description: do iiiittt
+  picture: http://www.lovethispic.com/uploaded_images/214276-Happy-Dog.jpg
+- id: 4
+  title: set this as your desktop background
+  description: ''
+  picture: http://www.hdbloggers.net/wp-content/uploads/2016/01/HD-Desktop-Background.jpg
+total: 4

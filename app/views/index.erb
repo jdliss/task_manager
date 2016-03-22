@@ -7,4 +7,5 @@
   <% @tasks.each do |task| %>
     <h3><%= task.id %>: <a href="/tasks/<%= task.id %>"><%= task.title %></a></h3>
   <% end %>
+  <div class="padded"><a class="btn-lg btn-success shadow" href="/tasks/new">New task</a></div>
 </div>
