@@ -1,28 +1,7 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet"
-    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
-    integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
-    crossorigin="anonymous">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet"
-    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
-    integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r"
-    crossorigin="anonymous">
-
-    <title></title>
-  </head>
-  <body style="font-family:courier;">
-    <div>
-      <div class="row well">
-        <a class="btn-sm btn-info" href="/tasks">Back to Task Index</a>
-        <h1 class="text-center"><%= @task.title %></h1>
-      </div>
-      <p class='text-center'><%= @task.description %></p>
-    </div>
-  </body>
-</html>
+<div>
+  <div class="row well">
+    <a class="btn-sm btn-info" href="/tasks">Back to Task Index</a>
+    <h1 class="text-center"><%= @task.title %></h1>
+  </div>
+  <p class='text-center'><%= @task.description %></p>
+</div>
