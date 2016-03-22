@@ -1,14 +1,15 @@
 <div class="row well">
-  <a class="btn-sm btn-info" href="/">Back to Task Manager</a>
+  <div class="padding-left"><a class="btn-sm btn-info" href="/">Back to Task Manager</a></div>
   <h2 class="text-center">enter a new task:</h2>
 </div>
 <div class="text-center">
   <form action="/tasks" method="post">
-  title<br/>
-  <input type="text" name="task[title]" /><br/><br/>
-  picture<br/>
-  <input type="text" name="task[picture]" /><br/><br/>
-  description<br/>
-  <textarea name="task[description]"></textarea><br />
-  <input class="btn btn-default" type="submit" />
+    title<br/>
+    <input type="text" name="task[title]" /><br/><br/>
+    image<br/>
+    <input type="text" name="task[image]" /><br/><br/>
+    description<br/>
+    <textarea name="task[description]"></textarea><br />
+    <input class="btn btn-default" type="submit" />
+  </form>
 </div>
