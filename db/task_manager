@@ -5,4 +5,9 @@ tasks:
   description: ''
   picture: 
   image: http://www.lovethispic.com/uploaded_images/214276-Happy-Dog.jpg
-total: 1
+- id: 2
+  title: add a navbar to the top
+  description: whoops i forgot what it said
+  picture: 
+  image: ''
+total: 2
