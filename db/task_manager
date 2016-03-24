@@ -1,13 +1,7 @@
 ---
 tasks:
 - id: 1
-  title: check out this puppy yo he's so happy
-  description: ''
-  picture: 
-  image: http://www.lovethispic.com/uploaded_images/214276-Happy-Dog.jpg
-- id: 2
-  title: add a navbar to the top
-  description: whoops i forgot what it said
-  picture: 
-  image: ''
-total: 2
+  title: NEW TITLE
+  description: just loooooooooooooooook at him
+  image: https://s-media-cache-ak0.pinimg.com/736x/88/a2/75/88a2752c3738039aa8e9c067c7ddc3f7.jpg
+total: 1

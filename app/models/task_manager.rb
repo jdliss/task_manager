@@ -1,5 +1,4 @@
 require 'yaml/store'
-require_relative "task"
 
 class TaskManager
   attr_reader :database
@@ -16,7 +15,7 @@ class TaskManager
       database['tasks'] << { "id"          => database['total'],
                              "title"       => task['title'],
                              "description" => task['description'],
-                             "picture"     => task["picture"]}
+                             "image"     => task["image"]}
     end
   end
 
@@ -47,7 +46,7 @@ class TaskManager
     end
   end
 
-  def delete(id)
+  def destroy(id)
     database.transaction do
       database['tasks'].delete_if { |task| task["id"] == id }
     end
@@ -59,6 +58,13 @@ class TaskManager
         task['id'] = index + 1
         database['total'] = index + 1
       end
+    end
+  end
+
+  def destroy_all
+    database.transaction do
+      database['tasks'] = []
+      database['total'] = 0
     end
   end
 end

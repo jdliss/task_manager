@@ -8,7 +8,7 @@
 
 <div class="container text-center">
   <% @tasks.each do |task| %>
-    <div class="row">
+    <div class="task row">
       <h3><%= task.id %>: <a href="/tasks/<%= task.id %>"><%= task.title %></a></h3>
       <a class="btn-sm btn-info" href="/tasks/<%= task.id %>/edit">Edit</a>
       <form class="simple-form" action="/tasks/<%= task.id %>" method="POST">
